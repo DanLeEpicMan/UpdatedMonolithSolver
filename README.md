@@ -46,6 +46,6 @@ Step 6.5: **Note that this program does NOT account for your treasure!** It simp
 Step 7: If you have to restart after clearing the entire board, start from Step 4. You do not need to create a new CSV file however; you can simply just replace its contents with the new board and save it.
 # Afterword
 
-I hope my explanation was as informative as it could be! The original repository has its own instructions, but I felt like I should write my own. Remember that this tool won't guarantee success immediately, and you will most likely have to retry this many times. For me, I had to use this tool between 10-15 times (not fun). If you would like to contact me, my Discord is Dan Le Man 2#1890.
+I hope my explanation was as informative as it could be! The original repository has its own instructions, but I felt like I should write my own. Remember that this tool won't guarantee success immediately, and you will most likely have to retry this many times. For me, I had to use this tool between 10-15 times (not fun). Note that there are two other files that I did not mention. They aren't relevant to generating a solution, but the original creator documented their use and purpose. If you would like to contact me, my Discord is Dan Le Man 2#1890.
 
 License: [Same one located here](https://github.com/Azshene/THM_Solver). Give credit to the original creator where it's due.
