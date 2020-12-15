@@ -22,7 +22,7 @@ Step 4: This step is probably the most tedious and time-consuming one. I highly 
   
 4a: Start a game and take a screenshot of the board. Pause the game by opening the controls (F3 on QWERTY layout). You can use Windows Key+Shift+S to quickly open the snippet tool. Make sure you can save this screenshot somewhere because you will need to access it. What I did was paste the screenshot in the DMs of a bot on Discord and expanded the image within Discord.
   
-4b: In File Explorer, go into the folder called "boards" (located in the main file) and open Notepad (you can use the search bar at the bottom left to find Notepad). You should see 5 files titled "exampleNumber".
+4b: In File Explorer, go into the folder called "boards" (located within the main file). You should see 5 files titled "example" and then a number after it. Then open Notepad (you can use the search bar in the bottom left corner to find Notepad)
   
 4c: Recreate the board in Notepad. This is easier to explain in pictures so refer to the following images:
   
@@ -35,7 +35,7 @@ And this is how I would recreate it in Notepad:
   
 As you can see, each block is denoted by a number and separated by commas. Rows are separated by a new line. At first this will be annoying, but eventually you'll get accustomed to it. Notice that every color has a specific number of dots on it (1 for Gray, 2 for Pink, 3 for Yellow, 4 for Blue).
 	
-4d: Once you finish recreating the board, click on "File" and "Save As" in Notepad. Save it to the "boards" folder in the Monolith folder and type this into the box where it asks you to name it: "yourname.csv". yourname can be anything. I personally called it "myBoard", so I would type "myBoard.csv" into the name part. **MAKE SURE THAT IT'S A .CSV FILE AND NOT A .TXT FILE. IF YOU CANNOT CONVERT IT THEN SIMPLY OPEN ONE OF THE EXAMPLES, PASTE YOUR BOARD INTO THERE, AND RENAME IT!**
+4d: Once you finish recreating the board, click on "File" and "Save As" in Notepad. A menu that looks like File Explorer should pop up. For the box where it says filename, input "yourname.csv" (yourname can be anything. I personally called it myBoard, so I would type myBoard.csv). Once you input the name, change the "Save as type" input to "All Files". Once both of those values are inputted, save your file into the boards folder from Step 4b. You can copy and paste the directory of the boards file and input it into the newly opened File Explorer box if needed. **MAKE SURE THAT IT'S A .CSV FILE AND NOT A .TXT FILE. IF YOU ARE HAVING TROUBLE THEN SIMPLY OPEN ONE OF THE EXAMPLES, PASTE YOUR BOARD INTO THERE, AND RENAME IT!**
 
 Step 5: Once you have your board created, go back to the Anaconda command prompt and type this: "python TMP.py yourname" (without quotes!). yourname is whatever you named your file, without the .csv at the end. For example, I would type "python TMP.py myBoard" (without quotes!)
 
