@@ -14,9 +14,9 @@ Step 2: On the search bar in the bottom left of your screen, type the word "Anac
 
 Step 3: For those of you that have experience with command prompt, simply move into the unzipped folder using the cd command and move onto the next step. For those of you that don't, here's how to do that:
 
-3a: In file explorer, go into the Monolith folder (the default title is "DrV3_MonolithSolver") and copy the directory link. (For instance, mine looks like this: C:\Users\Daniel\Downloads\DrV3_MonolithSolver)
+3a: In file explorer, go into the Monolith folder (the default title is "UpdatedMonolithSolver-main") and copy the directory link. (For instance, mine looks like this: C:\Users\Daniel\Downloads\UpdatedMonolithSolver-main)
 
-3b: Then in command prompt, type (without quotes) "cd (whatever you just copied)". For me, I would input this into my command prompt (again, without quotes) "cd C:\Users\Daniel\Downloads\DrV3_MonolithSolver"
+3b: Then in command prompt, type (without quotes) "cd (whatever you just copied)". For me, I would input this into my command prompt (again, without quotes) "cd C:\Users\Daniel\Downloads\UpdatedMonolithSolver-main"
 	
 Step 4: This step is probably the most tedious and time-consuming one. I highly recommend playing in Borderless Windowed mode since you will be Alt-Tabbing a lot. I also recommend muting the game in the volume mixer and playing your own music, as this minigame's music will probably drive you insane.
   
