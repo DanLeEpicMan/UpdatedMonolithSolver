@@ -43,7 +43,7 @@ Note for Step 5: If you get an error about "python" being an unrecognizable comm
 
 Step 6: If you correctly inputted that command then the program should state that it's "finding the best possible solution". After some time the program should say "The best determined solution can be found in the 'solutions folder". Once you notice that, go back to the main folder and go into the folder titled "solutions". In there you should see a bunch of images (typically between 70 and 90). Follow those images step by step (for each image, there is a small yellow box around the block you should click). You will have to Alt-Tab and pause a lot, so be warned. 
 
-Note for Step 6: Ideally, you want at least 90% board clearance, since it's almost guaranteed to work with minimal manual clearing. If you get below 80%, I reccommend starting over since you will have to do a lot of manual clearing. Unfortunately there's no restart option so you will have to spam click the board until you can start a new game.
+Note for Step 6: Ideally, you want at least 90% board clearance, since it'll most likely require minimal manual clearing. If you get below 80%, I reccommend starting over since you will have to do a lot of manual clearing. Unfortunately there's no restart option so you will have to spam click the board until you can start a new game.
 
 Step 6.5: **Note that this program does NOT account for your treasure!** It simply gives you the solution with the most blocks destroyed. If you happen to uncover treasure that you would like to be accounted for, manually uncover it. Once that has been done, you can then recreate the board using 0 in place of destroyed blocks and rerun the program. Alternatively, you could choose a subsection of a desired area and create that as a .csv file and run the program on that. (If you would like to read what the original creator said about this, refer to Step 3.5 in their instructions. The original repository is linked in the foreword and afterword).
 
@@ -52,7 +52,7 @@ Step 7: If you have to restart after clearing the entire board, start from Step 
 
 I hope my explanation was as informative as it could be! The original repository has its own instructions, but I felt like I should write my own. Remember that this tool won't guarantee success immediately, and you will most likely have to retry this many times. For me, I had to use this tool between 10-15 times (not fun). Note that there are two other files that I did not mention. You won't have to use them when generating a solution, but the original creator documented their use and purpose. If you would like to contact me, my Discord is Dan Le Man 2#1890. Alternatively, [my Steam profile can be found here](https://steamcommunity.com/id/danleepicman/) if you prefer to not use Discord.
 
-I may try to convert this into an application with an interface (as opposed to command prompt) in the future if I ever learn more Python. If you'd like to give me a nudge to do so, please message me because I currently have no serious resolve or motivation.
+I may try to convert this into an application with an interface (as opposed to command prompt) in the future if I ever learn more Python. If you'd like me to make this, please message me and give me a nudge because I currently have no serious resolve or motivation to do so.
 
 If you are having any trouble please do not hesitate to contact me. I'm absolutely willing to help and I won't judge you for running into problems.
 
