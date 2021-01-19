@@ -18,7 +18,7 @@ Step 3: For those of you that have experience with command prompt, simply move i
 
 3b: Then in command prompt, type (without quotes) "cd (whatever you just copied)". For me, I would input this into my command prompt (again, without quotes) "cd C:\Users\Daniel\Downloads\UpdatedMonolithSolver-main"
 
-Note for Step 3: If you leave the zip extraction destination unchanged then you'll have two folders called "UpdatedMonolithSolver-main". (To check if you have two, open the newly unzipped folder and see if there's a single folder in there called "UpdatedMonolithSolver-main". You'd essentially be clicking the same folder twice) You can either type "cd UpdatedMonolithSolver-main" again or move the inner folder into Downloads (or whereever you'd like to keep it) and delete the empty folder.
+Note for Step 3: If you leave the zip extraction destination unchanged then you'll have two folders called "UpdatedMonolithSolver-main" (To check if you have two, open the newly unzipped folder and see if there's a single folder in there called "UpdatedMonolithSolver-main". You'd essentially be clicking the same folder twice). You can either type "cd UpdatedMonolithSolver-main" or move the inner folder into Downloads (or wherever you'd like to keep it) and delete the empty folder.
 	
 Step 4: This step is probably the most tedious and time-consuming one. I highly recommend playing in Borderless Windowed mode since you will be Alt-Tabbing a lot. I also recommend muting the game in Volume Mixer and playing your own music, as this minigame's music will probably drive you insane.
   
@@ -49,7 +49,7 @@ Note for Step 6: Ideally, you want at least 90% board clearance, since it'll mos
 
 Step 6.5: **Note that this program does NOT account for your treasure!** It simply gives you the solution with the most blocks destroyed. If you happen to uncover treasure that you would like to be accounted for, manually uncover it. Once that has been done, you can then recreate the board using 0 in place of destroyed blocks and rerun the program. Alternatively, you could choose a subsection of a desired area and create that as a .csv file and run the program on that. (If you would like to read what the original creator said about this, refer to Step 3.5 in their instructions. The original repository is linked in the foreword and afterword).
 
-Step 7: If you have to restart after clearing the entire board, start from Step 4. You do not need to create a new CSV file however; you can simply replace your CSV file's contents with the new board and save it.
+Step 7: If you have to restart after clearing the entire board, start from Step 4. You do not need to create a new CSV file however; you can simply replace your CSV file's contents with the new board and save it. If you have to open Anaconda/command prompt again, then start from Step 3 instead.
 # Afterword
 
 I hope my explanation was as informative as it could be! The original repository has its own instructions, but I felt like I should write my own. Remember that this tool won't guarantee success immediately, and you will most likely have to retry this many times. For me, I used this tool between 10-15 times (not fun). Note that there are two other files that I did not mention. You won't have to use them when generating a solution, but the original creator documented their use and purpose. If you would like to contact me, my Discord is Dan Le Man 2#1890. Alternatively, [my Steam profile can be found here](https://steamcommunity.com/id/danleepicman/) if you prefer to not use Discord.
