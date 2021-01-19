@@ -18,7 +18,7 @@ Step 3: For those of you that have experience with command prompt, simply move i
 
 3b: Then in command prompt, type (without quotes) "cd (whatever you just copied)". For me, I would input this into my command prompt (again, without quotes) "cd C:\Users\Daniel\Downloads\UpdatedMonolithSolver-main"
 
-Note for Step 3: If you leave the zip extraction destination unchanged then you'll have two folders called "UpdatedMonolithSolver-main" (To check if you have two, open the newly unzipped folder and see if there's a single folder in there called "UpdatedMonolithSolver-main". You'd essentially be clicking the same folder twice). You can either type "cd UpdatedMonolithSolver-main" or move the inner folder into Downloads (or wherever you'd like to keep it) and delete the empty folder.
+Note for Step 3: If you left the zip extraction destination unchanged then you'll have two folders called "UpdatedMonolithSolver-main" (To check if you have two, open the newly unzipped folder and see if there's a single folder in there called "UpdatedMonolithSolver-main". You'd essentially be clicking the same folder twice). You can either type "cd UpdatedMonolithSolver-main" or move the inner folder into Downloads (or wherever you'd like to keep it) and delete the empty folder.
 	
 Step 4: This step is probably the most tedious and time-consuming one. I highly recommend playing in Borderless Windowed mode since you will be Alt-Tabbing a lot. I also recommend muting the game in Volume Mixer and playing your own music, as this minigame's music will probably drive you insane.
   
