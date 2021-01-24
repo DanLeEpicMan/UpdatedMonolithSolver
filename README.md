@@ -4,7 +4,7 @@ Hello! I'd just like to immediately state that this tool is not mine. All credit
 The reason I'm uploading this is because the original version had a few errors, and I fixed them to make it usable again. I eventually decided to upload my revised edition to make this tool more accessible.
 
 # Instructions
-Anyways, I'll give instructions as to how to use this. If you prefer instructions in a video format then [you can find that here](https://youtu.be/Zsg8zKtLgPI), but I still recommend going over these written instructions. I apologize in advance if I come off as pretentious or redundant.
+Anyways, I'll give instructions as to how to use this. If you prefer instructions in a video format then [you can find that here](https://youtu.be/2Rf2MQzMCJ8), but I still recommend going over these written instructions. I apologize in advance if I come off as pretentious or redundant.
 
 Step 1: Since this program is written in Python, you will need to download Python 3.6 or a newer version. Additionally, you must have the Numpy library installed. 
 The Anaconda distribution includes both of these. [Here's the download link for Windows](https://www.anaconda.com/products/individual#windows). If none of this step made sense to you, don't worry! Just download the Anaconda software and move onto Step 2.
