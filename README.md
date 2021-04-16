@@ -4,7 +4,7 @@ Hello! I'd just like to immediately state that this tool is not mine. All credit
 The reason I'm uploading this is because the original version had a few errors, and I fixed them to make it usable again. I eventually decided to upload my revised edition to make this tool more accessible.
 
 # Instructions
-Anyways, I'll give instructions as to how to use this. If you prefer instructions in a video format then [you can find that here](https://youtu.be/2Rf2MQzMCJ8), but I still recommend going over these written instructions. I apologize in advance if I come off as pretentious or redundant.
+Anyways, I'll give instructions as to how to use this. If you prefer instructions in a video format then [you can find that here](https://youtu.be/2Rf2MQzMCJ8), but I still recommend going over these written instructions. I apologize in advance if I come off as pretentious or redundant. Also, if you run into any errors that you can't figure out, feel free to contact me (I left my contact information in the afterword).
 
 Step 1: Since this program is written in Python, you will need to download Python 3.6 or a newer version. Additionally, you must have the Numpy library installed. 
 The Anaconda distribution includes both of these. [Here's the download link for Windows](https://www.anaconda.com/products/individual#windows). If none of this step made sense to you, don't worry! Just download the Anaconda software and move onto Step 2.
@@ -39,7 +39,7 @@ As you can see, each block is denoted by a number and separated by commas. Rows 
 	
 4d: Once you finish recreating the board, click on "File" and "Save As" in Notepad. A menu that looks like File Explorer should pop up. For the box that says "File name", input "yourname.csv" (yourname can be anything. I used the name myBoard, so I would type myBoard.csv). Once you input the name, change the "Save as type" box to "All Files". Once both of those values are inputted, save your file into the boards folder from Step 4b. You can copy and paste the directory of the boards folder and input it into the newly opened File Explorer if needed. **MAKE SURE THAT IT'S A .CSV FILE AND NOT A .TXT FILE. IF YOU ARE HAVING TROUBLE THEN SIMPLY OPEN ONE OF THE EXAMPLES, PASTE YOUR BOARD INTO THERE, AND RENAME IT!**
 
-Step 5: Once you have your file created, go back to Anaconda prompt and type this: "python THM.py yourname" (without quotes!). yourname is whatever you named your file, without the .csv at the end. For example, I would type "python THM.py myBoard" (without quotes!). **If you get an error while on this step that you can't figure out, please contact me and I'll do my best to help you. My contact information is located in the afterword.**
+Step 5: Once you have your file created, go back to Anaconda prompt and type this: "python THM.py yourname" (without quotes!). yourname is whatever you named your file, without the .csv at the end. For example, I would type "python THM.py myBoard" (without quotes!). **If you get an error while on this step that you can't figure out, please contact me and I'll do my best to help you. As mentioned earlier, my contact information is located in the afterword.**
 
 Note for Step 5: If you get an error about "python" being an unrecognizable command then you must make a PATH variable for it. [Here's instructions detailing how to do that](https://www.educative.io/edpresso/how-to-add-python-to-path-variable-in-windows). If you're using the Anaconda prompt then you won't run into this problem.
 
@@ -52,9 +52,7 @@ Step 6.5: **Note that this program does NOT account for your treasure!** It simp
 Step 7: If you have to restart after clearing the entire board, start from Step 4. You do not need to create a new CSV file however; you can simply replace your CSV file's contents with the new board and save it. If you have to open Anaconda prompt again, then start from Step 3 instead.
 # Afterword
 
-I hope my explanation was as informative as it could be! The original repository has its own instructions, but I felt like I should write my own. Remember that this tool won't guarantee success immediately, and you will most likely have to retry this many times. I personally used this tool between 10-15 times (not fun). Note that there are two other files that I did not mention. You won't have to use them when generating a solution, but if you're curious check out the original instructions. If you would like to contact me, my Discord is Dan Le Man 2#1890. Alternatively, [my Steam profile can be found here](https://steamcommunity.com/id/danleepicman/) if you prefer to not use Discord.
-
-If you'd like me to convert this into an application with a graphical interface, please message me and give me a nudge because I currently have no serious resolve or motivation to do so. It's something I thought about.
+I hope my explanation was as informative as it could be! The original repository has its own instructions, but I felt like I should write my own. Remember that this tool won't guarantee success immediately, and you will most likely have to retry this many times. I personally used this tool between 10-15 times (not fun). Note that there are two other files that I did not mention. You won't have to use them when generating a solution, but if you're curious check out the original instructions. **If you would like to contact me, my Discord is Dan Le Man 2#1890. Alternatively, [my Steam profile can be found here](https://steamcommunity.com/id/danleepicman/) if you prefer to not use Discord.**
 
 If you are having any trouble please do not hesitate to contact me. I'm absolutely willing to help and I won't judge you for running into problems.
 
