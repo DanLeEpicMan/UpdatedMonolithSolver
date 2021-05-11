@@ -1,16 +1,17 @@
 # Foreword
 Hello! I'd just like to immediately state that this tool is not mine. All credit goes to the creator of this program. [Here's the original repository/download](https://github.com/Azshene/THM_Solver).
 
-The reason I'm uploading this is because the original version had a few errors, and I fixed them to make it usable again. I eventually decided to upload my revised edition to make this tool more accessible.
+The reason why I'm uploading this is because the original version had a few errors, and I fixed them to restore the program. Eventually, I decided to upload my revised edition to make this tool more accessible.
 
 # Instructions
-Anyways, I'll give instructions as to how to use this. If you prefer instructions in a video format then [you can find that here](https://youtu.be/2Rf2MQzMCJ8), but I still recommend going over these written instructions. I apologize in advance if I come off as pretentious or redundant. Also, if you run into any errors that you can't figure out, feel free to contact me (I left my contact information in the afterword).
+Anyways, I'll give instructions as to how to use this. If you prefer instructions in a video format then [you can find that here](https://youtu.be/2Rf2MQzMCJ8), but I still recommend going over these written instructions. I apologize in advance if I come off as pretentious or redundant.
 
-Step 1: Since this program is written in Python, you will need to download Python 3.6 or a newer version. Additionally, you must have the Numpy library installed. 
-The Anaconda distribution includes both of these. [Here's the download link for Windows](https://www.anaconda.com/products/individual#windows). If none of this step made sense to you, don't worry! Just download the Anaconda software and move onto Step 2.
-(Don't forget to also unzip the Monolith file and put it in a place you can easily access. I personally left it in the Downloads folder)
+Also know that you are free to contact me for whatever reason, whether you run into a problem with the program, want some tips for 100% completion, or simply want to talk. My contact information can be found in the afterword.
 
-Step 2: On the search bar in the bottom left of your screen, type the word "Anaconda". A program called "Anaconda Prompt" (or something very similar) should appear. Open it. If you don't have the search bar enabled, you can access it by clicking the Windows icon in the bottom left corner. The search bar should then appear. If you didn't download Anaconda then open command prompt instead. One thing I'd also like to address: I will use Anaconda prompt and command prompt interchangeably. Know that I am referring to the same thing
+Step 1: Since this program is written in Python, you will need to download Python 3.6 or a newer version. Additionally, you must also have the NumPy library installed. The Anaconda distribution includes both of these: [here's the download link for Windows](https://www.anaconda.com/products/individual#windows). If none of this step made sense to you, don't worry! Just download the Anaconda software and move onto Step 2.
+(Don't forget to also download this solver and unzip it to an easily accessible place. I personally left it in the Downloads folder)
+
+Step 2: On the search bar in the bottom left of your screen, type the word "Anaconda". A program called "Anaconda Prompt" (or something very similar) should appear. Open it. If you don't have the search bar enabled, you can access it by clicking the Windows icon in the bottom left corner. The search bar should then appear. If you didn't download Anaconda then open command prompt instead. One thing I'd also like to address: I will use Anaconda prompt and command prompt interchangeably. Know that I am referring to the same thing.
 
 Step 3: For those of you that have experience with command prompt, simply move into the unzipped folder using the cd command and move onto the next step. For those of you that don't, here's how to do that:
 
