@@ -4,7 +4,7 @@ Hello! I'd just like to immediately state that this tool is not mine. All credit
 The reason why I'm uploading this is because the original version had a few errors, and I fixed them to restore the program. Eventually, I decided to upload my revised edition in order to make this tool more accessible.
 
 # Instructions
-Anyways, I'll give instructions as to how to use this. If you prefer instructions in a video format then [you can find that here](https://youtu.be/2Rf2MQzMCJ8), but I still recommend going over these written instructions. I apologize in advance if I come off as pretentious or redundant.
+Anyways, I'll give instructions as to how to use this. If you prefer instructions in a video format then [you can find that here](https://youtu.be/2Rf2MQzMCJ8), but I still recommend going over these written instructions. I apologize in advance if I come off as pretentious, condescending, or redundant.
 
 Also know that you are free to contact me for whatever reason, whether you run into a problem with the program, want some tips for 100% completion, or simply want to talk. My contact information can be found in the afterword.
 
