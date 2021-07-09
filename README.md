@@ -57,6 +57,6 @@ I hope my explanation was as informative as it could be! The original repository
 
 If you are having any trouble please do not hesitate to contact me. I'm absolutely willing to help and I won't judge you for running into problems.
 
-Also a note about me: I'm currently a college student studying mathematics. In the future I hope to revisit this and contribute more to this program, other than simple bug fixes (possibly automating a part of the process if I can ever figure out image recognition). Of course, these desires are merely aspirations and not guaranteed to happen, especially in the near future, but it's nevertheless something I wish to accomplish.
+Also a note about me: I'm currently a college student studying mathematics. In the future I hope to revisit this and contribute more to this program, other than simple bug fixes (possibly automating a part of the process if I can ever figure out image recognition). Of course, these desires are mere aspirations and are not guaranteed to happen, especially in the near future, but it's nevertheless something I wish to accomplish.
 
 License: [Same one located here](https://github.com/Azshene/THM_Solver); No license, but give credit to the original creator when due.
