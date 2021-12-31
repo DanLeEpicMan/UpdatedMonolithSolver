@@ -58,4 +58,6 @@ I hope my explanation was as informative as it could be! The original repository
 
 If you are having any trouble please do not hesitate to contact me. I'm absolutely willing to help and I won't judge you for running into problems.
 
+In the future I hope to add my own bit to this program by automating Step 4 (the Board-to-Notepad process). I thought of a way to approach this, namely a program that will take a picture of the board, partition the board into a grid, and checking the color at each individual location, thereby converting the color into a number. I imagine this is much easier said than done, but honestly the hardest part of this sounds like partitioning the board, since image recognition models exist online that I could "borrow". Hopefully I'll be able to figure this out one day so I can both contribute to a (partial) end of suffering and add more than bug fixes.
+
 License: [Same one located here](https://github.com/Azshene/THM_Solver); No license, but give credit to the original creator when due.
