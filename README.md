@@ -23,13 +23,15 @@ Note for Step 3: If you left the zip extraction destination unchanged from Step 
 Note #2: If you place the Monolith folder in a drive other than the C: drive, then you must move to that drive first before the cd command will work properly. To accomplish this, simply type "(drive letter):" in command prompt (e.g. if you put the Monolith folder in your D: drive, type "D:" in the command prompt and it will move you there). If you ever need to verify whether you're in the right spot, type "dir" and see if command prompt displays the folder's contents (namely "boards", "THM.py", "sprites", etc.)
 	
 Step 4: This step is probably the most tedious and time-consuming one. I highly recommend playing in Borderless Windowed mode since you will be pressing Alt+Tab a lot. I also recommend muting the game in Volume Mixer and playing your own music, as this minigame's music will most likely drive you insane.
-  
+
+**Before you continue on**, consider this alternative approach. The following instructions guides you to input the board from the start. Instead of using the solver at the beginning, you can try to uncover some treasures on your own and then input the board midway through. While more heuristic and less determinant, I feel like this approach allows incorporation of some personal strategy, thereby reducing total time spent on this terrible minigame. This was not my idea but instead someone else's ("HyungOppaHelper" from the comments of the YouTube instructions). Regardless, the difference between this approach and the following is when you decide to pause the game and make the board. Whichever one you prefer is up to your discretion.
+
 4a: Start a game and take a picture of the board, then pause the minigame by opening the controls **(F3 on QWERTY layout)**. You can use Windows Key+Shift+S to quickly open the snippet tool or press Print Screen (usually styled PrtSc, located near the numpad) to screenshot the entire screen. Alternatively, you can take a picture with a phone or some other camera. Make sure you save this picture somewhere because you will need to refer to it.
   
 4b: In File Explorer, go into the folder called "boards" (located within the main Monolith folder). You should see 5 text files titled "example" and then a number after it. Then open Notepad (you can use the search bar in the bottom left corner to find Notepad)
   
 4c: Recreate the board in Notepad. This is easier to explain in pictures so refer to the following images:
-  
+
 This is the board I have:
 ![The board I'd like to recreate](https://cdn.discordapp.com/attachments/786485904176971827/788300313815285770/unknown.png)
   
