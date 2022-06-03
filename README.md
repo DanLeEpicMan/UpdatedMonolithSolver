@@ -88,7 +88,7 @@ If you correctly inputted that command then the program should state that it's "
 
 ## Step 6
 
-If you have to restart after clearing the entire board, then go to Step 3. You do not need to create a new CSV file however; you can simply replace your CSV file's contents with the new board and save it. If you have to open Anaconda prompt again, then go to Step 3 instead.
+If you have to restart after clearing the entire board, then go to Step 3. You do not need to create a new CSV file however; you can simply replace your CSV file's contents with the new board and save it. If you have to open Anaconda prompt again, then start at Step 1 instead.
 
 # Afterword
 
