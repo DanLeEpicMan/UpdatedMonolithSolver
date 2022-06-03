@@ -13,7 +13,7 @@ Also know that you are free to contact me for whatever reason, whether you run i
 
 Here I explain what you will need in order to run this script. Steps 1 and 2 are also related to setting up the solver; if you already know how to (decently) use command prompt and file explorer, then feel free to skip to Step 3.
 
-Since this program is written in Python, you will need to download Python 3.6 or a newer version. Additionally, you must also have the NumPy library installed. The Anaconda distribution includes both of these: [here's the download link for Windows](https://www.anaconda.com/products/individual#windows). If none of this step made sense to you, don't worry! Just download the Anaconda software and move onto Step 2. Moreover, don't forget to download this solver and unzip it to an easily accessible place, such as Downloads folder (which is where I put it!). You should also omit the "UpdatedMonolithSolver-main" bit from the extraction destination, as doing so won't create extraneous folders.
+Since this program is written in Python, you will need to download Python 3.6 or a newer version. Additionally, you must also have the NumPy library installed. The Anaconda distribution includes both of these: [here's the download link for Windows](https://www.anaconda.com/products/individual#windows). If none of this step made sense to you, don't worry! Just download the Anaconda software and move onto Step 1. Moreover, don't forget to download this solver and unzip it to an easily accessible place, such as Downloads folder (which is where I put it!). You should also omit the "UpdatedMonolithSolver-main" bit from the extraction destination, as doing so won't create extraneous folders.
 
 ## Step 1
 
