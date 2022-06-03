@@ -11,7 +11,7 @@ Also know that you are free to contact me for whatever reason, whether you run i
 
 ## Prerequisites and Installation
 
-Here I explain what you will need in order to run this script. Steps 1 and 2 are also related to setting up the solver; if you already know how to (decently) use command prompt and file explorer, then feel free to skip to Step 3.
+Here I explain what you will need in order to run this script. Steps 1 and 2 are also related to setting up the solver; if you already know how to (decently) use command prompt and file explorer, then feel free to skip to [Step 3](https://github.com/DanLeEpicMan/UpdatedMonolithSolver/blob/main/README.md#step-3).
 
 Since this program is written in Python, you will need to download Python 3.6 or a newer version. Additionally, you must also have the NumPy library installed. The Anaconda distribution includes both of these: [here's the download link for Windows](https://www.anaconda.com/products/individual#windows). If none of this step made sense to you, don't worry! Just download the Anaconda software and move onto Step 1. Moreover, don't forget to download this solver and unzip it to an easily accessible place, such as Downloads folder (which is where I put it!). You should also omit the "UpdatedMonolithSolver-main" bit from the extraction destination, as doing so won't create extraneous folders.
 
@@ -74,7 +74,7 @@ Once you have your file created, go back to Anaconda prompt and type "python THM
 
 ## Step 5
 
-If you correctly inputted that command then the program should state that it's "finding the best possible solution". After some time the program should say "The best determined solution can be found in the 'solutions folder". Once you notice that, go back to the main folder and go into the folder titled "solutions". In there you should see a large series of images (typically between 70 and 90). Follow those images step by step (for each image, there is a small yellow box around the block you should click. For reference, the example board from Step 3.3 has this yellow box at x-y coordinate (9,9)). You will have to Alt+Tab and pause a lot, so be warned. 
+If you correctly inputted that command then the program should state that it's "finding the best possible solution". After some time the program should say "The best determined solution can be found in the 'solutions folder". Once you notice that, go back to the main folder and go into the folder titled "solutions". In there you should see a large series of images (typically between 70 and 90). Follow those images step by step (for each image, there is a small yellow box around the block you should click. For reference, the example board from [Step 3.3](https://github.com/DanLeEpicMan/UpdatedMonolithSolver/blob/main/README.md#33) has this yellow box at x-y coordinate (9,9)). You will have to Alt+Tab and pause a lot, so be warned. 
 
 ### Additional Notes
 
@@ -88,7 +88,7 @@ If you correctly inputted that command then the program should state that it's "
 
 ## Step 6
 
-If you have to restart after clearing the entire board, then go to Step 3. You do not need to create a new CSV file however; you can simply replace your CSV file's contents with the new board and save it. If you have to open Anaconda prompt again, then start at Step 1 instead.
+If you have to restart after clearing the entire board, then go to [Step 3](https://github.com/DanLeEpicMan/UpdatedMonolithSolver/blob/main/README.md#step-3). You do not need to create a new CSV file however; you can simply replace your CSV file's contents with the new board and save it. If you have to open Anaconda prompt again, then start at [Step 1](https://github.com/DanLeEpicMan/UpdatedMonolithSolver/blob/main/README.md#step-1) instead.
 
 # Afterword
 
