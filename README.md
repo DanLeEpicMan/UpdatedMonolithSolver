@@ -74,7 +74,7 @@ Once you have your file created, go back to Anaconda prompt and type "python THM
 
 ## Step 5
 
-If you correctly inputted that command then the program should state that it's "finding the best possible solution". After some time the program should say "The best determined solution can be found in the 'solutions folder". Once you notice that, go back to the main folder and go into the folder titled "solutions". In there you should see a large series of images (typically between 70 and 90). Follow those images step by step (for each image, there is a small yellow box around the block you should click. For reference, the example board from Step 4 has this yellow box at x-y coordinate (9,9)). You will have to Alt+Tab and pause a lot, so be warned. 
+If you correctly inputted that command then the program should state that it's "finding the best possible solution". After some time the program should say "The best determined solution can be found in the 'solutions folder". Once you notice that, go back to the main folder and go into the folder titled "solutions". In there you should see a large series of images (typically between 70 and 90). Follow those images step by step (for each image, there is a small yellow box around the block you should click. For reference, the example board from Step 3.3 has this yellow box at x-y coordinate (9,9)). You will have to Alt+Tab and pause a lot, so be warned. 
 
 ### Additional Notes
 
