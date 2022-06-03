@@ -66,7 +66,7 @@ As you can see, each block is denoted by a number and separated by commas. Rows 
 	
 ### 3.4
 
-Once you finish recreating the board, click on "File" and "Save As" in Notepad. A menu that looks like File Explorer should pop up. For the box that says "File name", input "yourname.csv" (yourname can be anything; I used the name myBoard, so I would type myBoard.csv). Once you input the name, change the "Save as type" box to "All Files". Once both of those values are inputted, save your file into the boards folder from Step 4b. You can copy and paste the directory of the boards folder and input it into the newly opened File Explorer window if needed. **MAKE SURE THAT IT'S A .CSV FILE AND NOT A .TXT FILE. IF YOU ARE HAVING TROUBLE THEN SIMPLY OPEN ONE OF THE EXAMPLES, PASTE YOUR BOARD INTO THERE, AND RENAME IT!**
+Once you finish recreating the board, click on "File" and "Save As" in Notepad. A menu that looks like File Explorer should pop up. For the box that says "File name", input "yourname.csv" (yourname can be anything; I used the name myBoard, so I would type myBoard.csv). Once you input the name, change the "Save as type" box to "All Files". Once both of those values are inputted, save your file into the boards folder from Step 3.2. You can copy and paste the directory of the boards folder and input it into the newly opened File Explorer window if needed. **MAKE SURE THAT IT'S A .CSV FILE AND NOT A .TXT FILE. IF YOU ARE HAVING TROUBLE THEN SIMPLY OPEN ONE OF THE EXAMPLES, PASTE YOUR BOARD INTO THERE, AND RENAME IT!**
 
 ## Step 4
 
