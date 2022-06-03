@@ -7,7 +7,7 @@ The reason why I'm uploading this is because the original version had a few erro
 
 To clarify, these instructions assume that you are using a computer with Windows (7 maybe, 8 very likely, 10 & 11 definitely); if you are not using Windows, then you must know how to navigate files, use your OS's command-line interpreter, and create CSV files (I recommend following the original repository's instructions if this is your case). Also, if you prefer instructions in a video format then [you can find that here](https://youtu.be/2Rf2MQzMCJ8). I apologize in advance if I come off as pretentious, condescending, or redundant.
 
-Also know that you are free to contact me for whatever reason, whether you run into a problem with the program, want some tips for 100% completion, or simply want to talk. My contact information can be found in the afterword.
+Also know that you are free to contact me for whatever reason, whether you run into a problem with the program, want some tips for 100% completion, or simply want to talk. My contact information can be found in the [Afterword](https://github.com/DanLeEpicMan/UpdatedMonolithSolver/blob/main/README.md#afterword).
 
 ## Prerequisites and Installation
 
@@ -70,7 +70,7 @@ Once you finish recreating the board, click on "File" and "Save As" in Notepad. 
 
 ## Step 4
 
-Once you have your file created, go back to Anaconda prompt and type "python THM.py yourname" (without quotes!). yourname is whatever you named your file, without the .csv at the end (e.g. I would type "python THM.py myBoard"). **If you get an error while on this step that you can't figure out, please contact me and I'll do my best to help you. As mentioned earlier, my contact information is located in the afterword.**
+Once you have your file created, go back to Anaconda prompt and type "python THM.py yourname" (without quotes!). yourname is whatever you named your file, without the .csv at the end (e.g. I would type "python THM.py myBoard"). **If you get an error while on this step that you can't figure out, please contact me and I'll do my best to help you. As mentioned earlier, my contact information is located in the [Afterword](https://github.com/DanLeEpicMan/UpdatedMonolithSolver/blob/main/README.md#afterword).**
 
 ## Step 5
 
