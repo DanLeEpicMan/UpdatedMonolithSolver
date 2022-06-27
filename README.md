@@ -95,9 +95,11 @@ You don't need to include the file extension if your screenshot is a PNG. If it'
 Sometimes the parser might not work and just generate an incorrect board. This shouldn't happen very often, but is nonetheless possible. If this is your case, then go to the 'boards' folder and edit the file called 'out.csv' (it might just be called 'out'). Refer to the following images for correctly making a board:
 
 This is the board I have
+
 ![The board I'd like to recreate](https://cdn.discordapp.com/attachments/786485904176971827/788300313815285770/unknown.png)
   
 And this is how I would recreate it
+
 ![The recreation in Notepad](https://cdn.discordapp.com/attachments/786485904176971827/788300784487628800/unknown.png)
 
 Feel free to shoot me a message if you're having trouble.
