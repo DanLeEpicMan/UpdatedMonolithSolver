@@ -122,7 +122,7 @@ That command will let the program check 7500 boards instead of 5000, increasing 
 
 **Note that this program does NOT account for your treasure!** It simply gives you the solution with the most blocks destroyed. Recall that you should have at least 2 Monokubs and 3-4 fish to earn the achievement, so if you happen to uncover treasure that you would like to be accounted for, I recommend manually clearing it (you can plan out your moves by taking a screenshot of the board and paste it into paint or some other image editting software). Once that has been done, you can take another screenshot of the board and go back to [Step 3](https://github.com/DanLeEpicMan/UpdatedMonolithSolver/blob/main/README.md#step-3).
 
-Make sure to double check the board it gives you, since it might be a bit off. If you notice that the boards the program generates are off, then head to boards/out.csv and edit the file. You should see a bunch of numbers separated by commas; recreate the board manually as explained in [this note](https://github.com/DanLeEpicMan/UpdatedMonolithSolver/blob/main/README.md#notes-on-manually-converting-the-board).
+Make sure to double check the board it gives you, since it might be a bit off. If you notice that the boards the program generates are off, then head to boards/out.csv and edit the file. You should see a bunch of numbers separated by commas; recreate the board manually as explained in [this note](https://github.com/DanLeEpicMan/UpdatedMonolithSolver/blob/main/README.md#notes-on-manually-making-the-board).
 
 ## Restarting
 
