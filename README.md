@@ -13,15 +13,16 @@ Also know that you are free to contact me for whatever reason, whether you run i
 
 Here I explain what you will need in order to run this script. Steps 1 and 2 are also related to setting up the solver; if you already know how to (decently) use command prompt and file explorer, then feel free to download the package in the next step and skip to [Step 3](https://github.com/DanLeEpicMan/UpdatedMonolithSolver/blob/main/README.md#step-3).
 
-Since this program is written in Python, you will need to download Python 3.6 or a newer version. Additionally, you must also have the NumPy library installed. The Anaconda distribution includes both of these: [here's the download link for Windows](https://www.anaconda.com/products/individual#windows). If none of this step made sense to you, don't worry! Just download the Anaconda software and move onto Step 1. Moreover, don't forget to download this solver and unzip it to an easily accessible place, such as Downloads folder (which is where I put it!). You should also omit the "UpdatedMonolithSolver-main" bit from the extraction destination, as doing so won't create extraneous folders.
+Since this program is written in Python, you will need to download Python 3.6 or a newer version. Additionally, you must also have the NumPy library installed. The Anaconda distribution includes both of these: [here's the download link for Windows](https://www.anaconda.com/products/individual#windows). If none of this step made sense to you, don't worry! Just download the Anaconda software and move onto Step 1. 
+
+Moreover, don't forget to download the solver itself! You can download it by clicking the "Code" and "Download ZIP" option. Unzip it to an easily accessible place, such as Downloads folder (which is where I put it!). You should also omit the "UpdatedMonolithSolver-main" bit from the extraction destination, as doing so won't create extraneous folders.
 
 If you plan on using the automatic screnshot parser (which I highly recommend), you will need to install an additional package, OpenCV. I will explain how to do so in the next step.
 
 ## Step 1
 
-First, download this solver by clicking the "Code" and "Download as Zip" option. Unzip it to an easily accessible place, such as Downloads folder (which is where I put it!). You should also omit the "UpdatedMonolithSolver-main" bit from the extraction destination, as doing so won't create extraneous folders.
-
-Next, on the search bar in the bottom left corner of your screen, type the word "Anaconda" (if you're using Windows 11, click the magnifying glass for the search bar to appear). Open the program named "Anaconda Prompt" (or something very similar to that). If you don't have the search bar enabled, you can access it by clicking the Windows icon in the bottom left corner. If you didn't download Anaconda then open command prompt (or PowerShell) instead. I may also use "Anaconda prompt" and "Command prompt" interchangeably, so be aware of that in case there's any confusion.
+First, 
+On the search bar in the bottom left corner of your screen, type the word "Anaconda" (if you're using Windows 11, click the magnifying glass for the search bar to appear). Open the program named "Anaconda Prompt" (or something very similar to that). If you don't have the search bar enabled, you can access it by clicking the Windows icon in the bottom left corner. If you didn't download Anaconda then open command prompt (or PowerShell) instead. I may also use "Anaconda prompt" and "Command prompt" interchangeably, so be aware of that in case there's any confusion.
 
 If you plan on using the automatic screenshot parser (you really should), then run this command in Anaconda prompt.
 ```
