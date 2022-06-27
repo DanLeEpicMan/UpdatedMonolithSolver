@@ -21,8 +21,7 @@ If you plan on using the automatic screnshot parser (which I highly recommend), 
 
 ## Step 1
 
-First, 
-On the search bar in the bottom left corner of your screen, type the word "Anaconda" (if you're using Windows 11, click the magnifying glass for the search bar to appear). Open the program named "Anaconda Prompt" (or something very similar to that). If you don't have the search bar enabled, you can access it by clicking the Windows icon in the bottom left corner. If you didn't download Anaconda then open command prompt (or PowerShell) instead. I may also use "Anaconda prompt" and "Command prompt" interchangeably, so be aware of that in case there's any confusion.
+On the search bar in the bottom left corner of your screen, type the word "Anaconda", and open the program called "Anaconda Prompt" (or something very similar). You may need to click the Windows Icon or Magnifying Glass icon for it to appear. If you didn't download Anaconda then use cmd/PowerShell instead. I may also use "Anaconda prompt" and "Command prompt" interchangeably, so be aware of that in case there's any confusion.
 
 If you plan on using the automatic screenshot parser (you really should), then run this command in Anaconda prompt.
 ```
@@ -59,7 +58,7 @@ This step is where you actually start to use the solver. I highly recommend play
 
 The following instructions assume that you are using the automatic script parser (i.e. you aren't manually making the board) and have downloaded the additional package in [Step 1](https://github.com/DanLeEpicMan/UpdatedMonolithSolver/blob/main/README.md#step-1). I'll include additional notes at the end explaining how to manually make the board yourself; feel free to skip those if the parser worked well with you.
 
-Also, you may find it easier to run the script midday into a game instead of using it at the start. The benefit of this is allowing you to incorporate some degree of personal strategy, as opposed to getting lucky. This was not my idea but instead someone else's ("HyungOppaHelper" from the comments of the YouTube instructions). Regardless, the difference between this approach and the following is when you decide to pause the game and make the board. Whichever one you prefer is up to your discretion.
+Also, you may find it easier to run the script midway into a game instead of using it at the start. The benefit of this is allowing you to incorporate some degree of personal strategy, as opposed to getting lucky. This was not my idea but instead someone else's ("HyungOppaHelper" from the comments of the YouTube instructions). Regardless, the difference between this approach and the following is when you decide to pause the game and make the board. Whichever one you prefer is up to your discretion.
 
 ### 3.1
 
@@ -123,7 +122,7 @@ That command will let the program check 7500 boards instead of 5000, increasing 
 
 **Note that this program does NOT account for your treasure!** It simply gives you the solution with the most blocks destroyed. Recall that you should have at least 2 Monokubs and 3-4 fish to earn the achievement, so if you happen to uncover treasure that you would like to be accounted for, I recommend manually clearing it (you can plan out your moves by taking a screenshot of the board and paste it into paint or some other image editting software). Once that has been done, you can take another screenshot of the board and go back to [Step 3](https://github.com/DanLeEpicMan/UpdatedMonolithSolver/blob/main/README.md#step-3).
 
-Make sure to double check the board it gives you, since it might be a bit off. If you notice that the boards the program generates are off, then head to boards/out.csv and edit the file. You should see a bunch of numbers separated by commas; recreate the board manually as explained in [this note](https://github.com/DanLeEpicMan/UpdatedMonolithSolver/blob/main/README.md#notes-on-manually-making-the-board).
+Make sure to double check the board it gives you, since a few boxes might be off. If you notice that the solution boards are in fact off, then head to boards\out.csv and edit the file. You should see a bunch of numbers separated by commas; recreate the board manually as explained in [this note](https://github.com/DanLeEpicMan/UpdatedMonolithSolver/blob/main/README.md#notes-on-manually-making-the-board).
 
 ## Restarting
 
