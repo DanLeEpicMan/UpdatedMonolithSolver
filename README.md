@@ -42,7 +42,7 @@ C:\Users\Daniel\Downloads\UpdatedMonolithSolver-main
 ```
 ### 2.2
 
-Then in Anaconda prompt, type (without quotes) "cd (whatever you just copied)". For example, I would input this into my command prompt
+Then in Anaconda prompt, type (without quotes) "cd (whatever you just copied)". For example, I would input this into my command prompt (press right click to paste)
 ```
 cd C:\Users\Daniel\Downloads\UpdatedMonolithSolver-main
 ```
