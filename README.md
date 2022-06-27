@@ -83,9 +83,9 @@ Once that is all saved, go back to Anaconda prompt and type the following comman
 ```
 python start.py boardName
 ```
-Replace boardName with whatever you named your board. I used the name "myBoard", so I would input the following
+Replace boardName with whatever you named your screenshot. For example, I included a sample board in the screenshots folder; if I wanted to run the script on this board, I would input
 ```
-python start.py myBoard
+python start.py testBoard
 ```
 You don't need to include the file extension if your screenshot is a PNG. If it's a JPG, include .jpg at the end.
 
