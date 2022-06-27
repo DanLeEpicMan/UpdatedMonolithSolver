@@ -8,8 +8,7 @@ try:
     image = sys.argv[1]
     image = image if (image.endswith(".png") or image.endswith(".jpg")) else image + ".png" # Adds .png by default since Windows Snippet Tool saves images as PNGs by default. A bit lazy of me I know
 except IndexError: # In case the user forgets to provide an image.
-    print("Please provide a reference image")
-    sys.exit() # Terminates the script early, so I don't have to have a long if-else nest.
+    sys.exit("Please provide a reference image") # Terminates the script early, so I don't have to have a long if-else nest.
 
 
 if not (os.path.exists("screenshots\\"+image)):
