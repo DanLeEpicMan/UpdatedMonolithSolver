@@ -1,7 +1,7 @@
 # Foreword
 Hello! I'd just like to immediately state that not everything in this tool is mine. This borrows code from two separate repos. [Here](https://github.com/Azshene/THM_Solver) is the repo for the solver itself (Azshene/THM_Solver), and [here](https://github.com/artur-ag/TreasureHuntParser) is the repo for the image parser (artur-ag/TreasureHuntParser). My code is any tweaks I made, along with the "start.py" script.
 
-I'm uploading this for a few reasons. My initial motivation was the original solver had a few errors, and I fixed them and uploaded it here as a revised edition (hence the name UpdatedMonolithSolver). I later came back to this 2 years later after finding an auto-parser and updated everything to accomodate for it, in order to make this tool easier to use.
+I'm uploading this for a few reasons. My initial motivation was the original solver had a few errors, and I fixed them and uploaded it here as a revised edition (hence the name UpdatedMonolithSolver). I then came back to this 2 years later after finding an automatic image converter (auto-parser) and updated everything to accomodate for it, in order to make this tool easier to use (by a few orders of magnitude).
 
 # Instructions
 
