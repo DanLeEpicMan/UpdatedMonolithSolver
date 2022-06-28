@@ -58,7 +58,7 @@ This step is where you actually start to use the solver. I highly recommend play
 
 The following instructions assume that you are using the automatic script parser (i.e. you aren't manually making the board) and have downloaded the additional package in [Step 1](https://github.com/DanLeEpicMan/UpdatedMonolithSolver#step-1). I'll include additional notes at the end explaining how to manually make the board yourself; feel free to skip those if the parser worked well with you.
 
-Also, you may find it easier to run the script midway into a game instead of using it at the start. The benefit of this is allowing you to incorporate some degree of personal strategy, as opposed to getting lucky. This was not my idea but instead someone else's ("HyungOppaHelper" from the comments of the YouTube instructions). Regardless, the difference between this approach and the following is when you decide to pause the game and make the board. Whichever one you prefer is up to your discretion.
+Also, you may find it easier to run the script midway into a game instead of using it at the start. The benefit of this is allowing you to incorporate some degree of personal strategy, as opposed to getting lucky. This was not my idea but instead someone else's ("HyungOppaHelper" from the comments of the legacy YouTube instructions). Regardless, the difference between this approach and the following is when you decide to pause the game and make the board. Whichever one you prefer is up to your discretion.
 
 ### 3.1
 
