@@ -14,7 +14,7 @@ except IndexError: # In case the user forgets to provide an image.
 if not (os.path.exists(os.path.join("screenshots", image))):
     print("Image not found. Did you input the correct name? Try copying the name (with extention) and pasting it here. Right click to paste.")
 else:
-    test = os.system("python parser.py -o " + os.path.join("boards", "out.csv") + os.path.join("screenshots", image))
+    test = os.system("python parser.py -o " + os.path.join("boards", "out.csv") + " " + os.path.join("screenshots", image))
     if (test != 0): 
         print("Something went wrong in the automatic conversion process. Try running the script again, and if the problem persists you may have to manually create the board. Contact Dan Le Man 2#1890 (Discord) for any assistance.")
     else:
