@@ -5,13 +5,13 @@ I'm uploading this for a few reasons. My initial motivation was the original sol
 
 # Instructions
 
-To clarify, these instructions assume that you are using a computer with Windows. If this is not your case, then you should still be able to run all the scripts fine, but none of the instructions will apply. Contact me if you're having trouble (see below). Also, if you prefer instructions in a video format then [you can find that here](https://youtu.be/2Rf2MQzMCJ8) (this video is outdated, so I will update with a new one ASAP). I apologize in advance if I come off as pretentious, condescending, or redundant.
+To clarify, these instructions assume that you are using a computer with Windows. If this is not your case, then you should still be able to run all the scripts fine, but none of the instructions will apply. Contact me if you're having trouble (see below). Also, if you prefer instructions in a video format then [you can find that [here](https://youtu.be/63QQr9axij0). I apologize in advance if I come off as pretentious, condescending, or redundant.
 
-Also know that you are free to contact me for whatever reason, whether you run into a problem with the program, want some tips for 100% completion, or simply want to talk. My contact information can be found in the [Afterword](https://github.com/DanLeEpicMan/UpdatedMonolithSolver/blob/main/README.md#afterword).
+Also know that you are free to contact me for whatever reason, whether you run into a problem with the program, want some tips for 100% completion, or simply want to talk. My contact information can be found in the [Afterword](https://github.com/DanLeEpicMan/UpdatedMonolithSolver#afterword).
 
 ## Prerequisites and Installation
 
-Here I explain what you will need in order to run this script. Steps 1 and 2 are also related to setting up the solver; if you already know how to (decently) use command prompt and file explorer, then feel free to download the package in the next step and skip to [Step 3](https://github.com/DanLeEpicMan/UpdatedMonolithSolver/blob/main/README.md#step-3).
+Here I explain what you will need in order to run this script. Steps 1 and 2 are also related to setting up the solver; if you already know how to (decently) use command prompt and file explorer, then feel free to download the package in the next step and skip to [Step 3](https://github.com/DanLeEpicMan/UpdatedMonolithSolver#step-3).
 
 Since this program is written in Python, you will need to download Python 3.6 or a newer version. Additionally, you must also have the NumPy library installed. The Anaconda distribution includes both of these: [here's the download link for Windows](https://www.anaconda.com/products/individual#windows). If none of this step made sense to you, don't worry! Just download the Anaconda software and move onto Step 1. 
 
@@ -28,7 +28,7 @@ If you plan on using the automatic screenshot parser (you really should), then r
 pip install opencv-python
 ```
 
-A neat little graphic that looks like a progress bar should appear and tell you that it downloaded successfully. If you do not receive this message, please contact me and I'll help you out. See [Afterword](https://github.com/DanLeEpicMan/UpdatedMonolithSolver/blob/main/README.md#afterword) for my contact info.
+A neat little graphic that looks like a progress bar should appear and tell you that it downloaded successfully. If you do not receive this message, please contact me and I'll help you out. See [Afterword](https://github.com/DanLeEpicMan/UpdatedMonolithSolver#afterword) for my contact info.
 
 ## Step 2
 
@@ -56,7 +56,7 @@ cd C:\Users\Daniel\Downloads\UpdatedMonolithSolver-main
 
 This step is where you actually start to use the solver. I highly recommend playing in Borderless Windowed mode since you will be pressing Alt+Tab a lot. I also recommend muting the game in Volume Mixer and playing your own music, as this minigame's music will most likely drive you insane.
 
-The following instructions assume that you are using the automatic script parser (i.e. you aren't manually making the board) and have downloaded the additional package in [Step 1](https://github.com/DanLeEpicMan/UpdatedMonolithSolver/blob/main/README.md#step-1). I'll include additional notes at the end explaining how to manually make the board yourself; feel free to skip those if the parser worked well with you.
+The following instructions assume that you are using the automatic script parser (i.e. you aren't manually making the board) and have downloaded the additional package in [Step 1](https://github.com/DanLeEpicMan/UpdatedMonolithSolver#step-1). I'll include additional notes at the end explaining how to manually make the board yourself; feel free to skip those if the parser worked well with you.
 
 Also, you may find it easier to run the script midway into a game instead of using it at the start. The benefit of this is allowing you to incorporate some degree of personal strategy, as opposed to getting lucky. This was not my idea but instead someone else's ("HyungOppaHelper" from the comments of the YouTube instructions). Regardless, the difference between this approach and the following is when you decide to pause the game and make the board. Whichever one you prefer is up to your discretion.
 
@@ -92,7 +92,7 @@ You don't need to include the file extension if your screenshot is a PNG. If it'
 
 ## Notes on Manually Making the Board
 
-**Skip this note and move to [Step 4](https://github.com/DanLeEpicMan/UpdatedMonolithSolver/blob/main/README.md#step-4) if the parser worked fine for you.** 
+**Skip this note and move to [Step 4](https://github.com/DanLeEpicMan/UpdatedMonolithSolver#step-4) if the parser worked fine for you.** 
 
 Sometimes the parser might not work and just generate an incorrect board. This shouldn't happen very often, but is nonetheless possible. If this is your case, then go to the 'boards' folder and edit the file called 'out.csv' (it might just be called 'out'). Refer to the following images for correctly making a board:
 
@@ -122,13 +122,13 @@ That command will let the program check 7500 boards instead of 5000, increasing 
 
 ### An Extra and (Hopefully) Helpful Tip 
 
-**Note that this program does NOT account for your treasure!** It simply gives you the solution with the most blocks destroyed. Recall that you should have at least 2 Monokubs and 3-4 fish to earn the achievement, so if you happen to uncover treasure that you would like to be accounted for, I recommend manually clearing it (you can plan out your moves by taking a screenshot of the board and paste it into paint or some other image editting software). Once that has been done, you can take another screenshot of the board and go back to [Step 3](https://github.com/DanLeEpicMan/UpdatedMonolithSolver/blob/main/README.md#step-3).
+**Note that this program does NOT account for your treasure!** It simply gives you the solution with the most blocks destroyed. Recall that you should have at least 2 Monokubs and 3-4 fish to earn the achievement, so if you happen to uncover treasure that you would like to be accounted for, I recommend manually clearing it (you can plan out your moves by taking a screenshot of the board and paste it into paint or some other image editting software). Once that has been done, you can take another screenshot of the board and go back to [Step 3](https://github.com/DanLeEpicMan/UpdatedMonolithSolver#step-3).
 
-Make sure to double check the board it gives you, since a few boxes might be off. If you notice that the solution boards are in fact off, then head to boards\out.csv and edit the file. You should see a bunch of numbers separated by commas; fix any discrepencies manually, as explained in [this note](https://github.com/DanLeEpicMan/UpdatedMonolithSolver/blob/main/README.md#notes-on-manually-making-the-board).
+Make sure to double check the board it gives you, since a few boxes might be off. If you notice that the solution boards are in fact off, then head to boards\out.csv and edit the file. You should see a bunch of numbers separated by commas; fix any discrepencies manually, as explained in [this note](https://github.com/DanLeEpicMan/UpdatedMonolithSolver#notes-on-manually-making-the-board).
 
 ## Restarting
 
-If you have to restart after clearing the entire board, then go to [Step 3](https://github.com/DanLeEpicMan/UpdatedMonolithSolver/blob/main/README.md#step-3). If you have to open Anaconda prompt again, then start at [Step 1](https://github.com/DanLeEpicMan/UpdatedMonolithSolver/blob/main/README.md#step-1) instead. Don't reinstall the OpenCV package if you've already installed it though (i.e. skip the command I tell you to input in Step 1 if you've done that before).
+If you have to restart after clearing the entire board, then go to [Step 3](https://github.com/DanLeEpicMan/UpdatedMonolithSolver#step-3). If you have to open Anaconda prompt again, then start at [Step 1](https://github.com/DanLeEpicMan/UpdatedMonolithSolver#step-1) instead. Don't reinstall the OpenCV package if you've already installed it though (i.e. skip the command I tell you to input in Step 1 if you've done that before).
 
 # Afterword
 
