@@ -5,7 +5,7 @@ I'm uploading this for a few reasons. My initial motivation was the original sol
 
 # Instructions
 
-To clarify, these instructions assume that you are using a computer with Windows. If this is not your case, then you should still be able to run all the scripts fine, but none of the instructions will apply. Contact me if you're having trouble (see below). Also, if you prefer instructions in a video format then [you can find that [here](https://youtu.be/63QQr9axij0). I apologize in advance if I come off as pretentious, condescending, or redundant.
+To clarify, these instructions assume that you are using a computer with Windows. If this is not your case, then you should still be able to run all the scripts fine, but none of the instructions will apply. Contact me if you're having trouble (see below). Also, if you prefer instructions in a video format then [you can find that here](https://youtu.be/63QQr9axij0). I apologize in advance if I come off as pretentious, condescending, or redundant.
 
 Also know that you are free to contact me for whatever reason, whether you run into a problem with the program, want some tips for 100% completion, or simply want to talk. My contact information can be found in the [Afterword](https://github.com/DanLeEpicMan/UpdatedMonolithSolver#afterword).
 
