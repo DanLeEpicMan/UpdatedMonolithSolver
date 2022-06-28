@@ -28,7 +28,7 @@ If you plan on using the automatic screenshot parser (you really should), then r
 pip install opencv-python
 ```
 
-A neat little graphic that looks like a progress bar should appear and tell you that it downloaded successfully. If you do not receive this message, please contact me and I'll help you out. See [Afterword](https://github.com/DanLeEpicMan/UpdatedMonolithSolver#afterword) for my contact info.
+You should see a message telling you it downloaded successfully. If you do not receive this message, please contact me and I'll help you out. See [Afterword](https://github.com/DanLeEpicMan/UpdatedMonolithSolver#afterword) for my contact info.
 
 ## Step 2
 
