@@ -564,7 +564,7 @@ def THM(filename, target, max_states, print_output):
         print("\nPrinting solution...")
         output_image(solution, states, height, width)
         print("\nThe best determined solution can be found in the 'solutions' folder")
-        subprocess.Popen('explorer /select,"solutions\\step0.png"') # Opens solutions folder w/ item selected.
+        subprocess.Popen('explorer /select,' + os.path.join("solutions", "step0.png")) # Opens solutions folder w/ item selected.
     else:
         pass
 
