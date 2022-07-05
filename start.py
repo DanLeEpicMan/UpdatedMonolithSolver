@@ -12,7 +12,7 @@ except IndexError: # In case the user forgets to provide an image.
 
 
 if not (os.path.exists(os.path.join("screenshots", image))):
-    print("Image not found. Did you input the correct name? Try copying the name (with extention) and pasting it here. Right click to paste.")
+    print("Image not found. Did you input the correct name? Try copying the name (with extension) and pasting it here. Right click to paste.")
 else:
     test = os.system("python parser.py -o " + os.path.join("boards", "out.csv") + " " + os.path.join("screenshots", image))
     if (test != 0): 
