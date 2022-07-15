@@ -127,7 +127,7 @@ That command will let the program check 7500 boards instead of 5000, increasing 
 You can also use the solver if you don't want to manually plan out your moves. Head to the Folder named "boards" and clone the File named "out.csv" (may also be called "out"). Rename your copy to something else (region, treasureArea, ...) and open it in Notepad. Delete everything and recreate the area relevant to the treasure **(NOT THE WHOLE BOARD!)**. Refer to [this note](https://github.com/DanLeEpicMan/UpdatedMonolithSolver#notes-on-manually-making-the-board) for manually making boards. When you're done, run the following command in Anaconda prompt (replace yourName with whatever you named your file)
 
 ```
-python THM yourName
+python THM.py yourName
 ```
 
 Also be sure to double check your board in case a few boxes are off, especially if you take another screenshot after doing some manual clearing for treasure. If the solution board is in fact off, refer to the note linked above.
