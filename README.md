@@ -122,9 +122,11 @@ That command will let the program check 7500 boards instead of 5000, increasing 
 
 ### An Extra and (Hopefully) Helpful Tip 
 
-**Note that this program does NOT account for your treasure!** It simply gives you the solution with the most blocks destroyed. Recall that you should have at least 2 Monokubs and 3-4 fish to earn the achievement, so if you happen to uncover treasure that you would like to be accounted for, I recommend manually clearing it (you can plan out your moves by taking a screenshot of the board and paste it into paint or some other image editting software). Once that has been done, you can take another screenshot of the board and go back to [Step 3](https://github.com/DanLeEpicMan/UpdatedMonolithSolver#step-3).
+**Note that this program does NOT account for your treasure!** It simply gives you the solution with the most blocks destroyed. Recall that you should have at least 2 Monokubs and 3-4 fish to earn the achievement, so if you happen to uncover treasure that you would like to be accounted for, I recommend manually clearing it (use the screenshot and paint to plan your next moves). Once that has been done, you can take another screenshot of the board and go back to [Step 3](https://github.com/DanLeEpicMan/UpdatedMonolithSolver#step-3).
 
-Make sure to double check the board it gives you, since a few boxes might be off. If you notice that the solution boards are in fact off, then head to boards\out.csv and edit the file. You should see a bunch of numbers separated by commas; fix any discrepencies manually, as explained in [this note](https://github.com/DanLeEpicMan/UpdatedMonolithSolver#notes-on-manually-making-the-board).
+You can also use the solver if you don't want to manually plan out your moves. Head to the folder named "boards" and clone the filer named "out.csv" (may also be called "out"). Rename your copy to something else (region, treasureArea, ...) and open it in Notepad. Delete everything and recreate the area relevant to the treasure **(NOT THE WHOLE BOARD!)**. Refer to [this note](https://github.com/DanLeEpicMan/UpdatedMonolithSolver#notes-on-manually-making-the-board) for manually making boards.
+
+Also be sure to double check your board in case a few boxes are off, especially if you take another screenshot after doing some manual clearing for treasure. If the solution board is in fact off, refer to the note linked above.
 
 ## Restarting
 
