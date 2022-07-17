@@ -104,7 +104,7 @@ And this is how I would recreate it
 
 ![The recreation in Notepad](https://cdn.discordapp.com/attachments/786485904176971827/788300784487628800/unknown.png)
 
-Feel free to shoot me a message if you're having trouble.
+Use 0 for any open blocks. Feel free to shoot me a message if you're having trouble.
 
 ## Step 4
 
