@@ -62,9 +62,11 @@ Also, you may find it easier to run the script midway into a game instead of usi
 
 ### 3.1
 
-Start a game and take a picture of the board by pressing Prt Sc (Print Screen, usually located near the numpad above the arrow keys). This will save a screenshot to your clipboard; make sure you don't copy anything else until the next step. If you have multiple monitors, then press Alt + Prt Sc instead (this will only screenshot the active monitor instead of all of them). **Make sure your hammer is away from the board and that you include the full screen** (see reference image). Then, pause the minigame by opening the controls **(F3 on QWERTY layout)**. If you don't have a Prt Sc key, press Windows Key + Shift + S instead.
+Start a game and take a picture of the board by pressing Prt Sc (Print Screen, usually located near the numpad above the arrow keys). This will save a screenshot to your clipboard; make sure you don't copy anything else until the next step. Then, pause the minigame by opening the controls **(F3 on QWERTY layout)**. 
 
-This is what your screenshot should look like.
+If you have multiple monitors, then use Alt + Prt Sc instead (this will only screenshot the active monitor instead of all of them). If you don't have a Prt Sc key, uss Windows Key + Shift + S instead. 
+
+**Make sure your hammer is away from the board and that you include the full screen.** This is what your screenshot should look like.
 ![Sample board](https://cdn.discordapp.com/attachments/906695285990899712/990763499137425438/unknown.png)
 Notice how the hammer is out of frame in the bottom left corner
 
@@ -94,7 +96,7 @@ You don't need to include the file extension if your screenshot is a PNG. If it'
 
 **Skip this note and move to [Step 4](https://github.com/DanLeEpicMan/UpdatedMonolithSolver#step-4) if the parser worked fine for you.** 
 
-Sometimes the parser might not work and just generate an incorrect board. This shouldn't happen very often, but is nonetheless possible. If this is your case, then go to the 'boards' folder and edit the file called 'out.csv' (it might just be called 'out'). Refer to the following images for correctly making a board:
+Sometimes the parser may fail and generate an incorrect board. This shouldn't happen very often, but is nonetheless possible. If this is your case, then go to the 'boards' folder and edit the file called 'out.csv' (it might just be called 'out'). Refer to the following images for correctly making a board:
 
 This is the board I have
 
@@ -122,15 +124,17 @@ That command will let the program check 7500 boards instead of 5000, increasing 
 
 ### An Extra and (Hopefully) Helpful Tip 
 
-**Note that this program does NOT account for your treasure!** It simply gives you the solution with the most blocks destroyed. Recall that you should have at least 2 Monokubs and 3-4 fish to earn the achievement, so if you happen to uncover treasure that you would like to be accounted for, I recommend manually clearing it (use the screenshot and paint to plan your next moves). Once that has been done, you can take another screenshot of the board and go back to [Step 3](https://github.com/DanLeEpicMan/UpdatedMonolithSolver#step-3).
+**Note that this program does NOT account for your treasure!** It simply gives you the solution with the most blocks destroyed. Recall that you should have at least 2 Monokubs and 3-4 fish to earn the achievement. If you happen to uncover treasure that you would like to be accounted for, then there's one of two things I recommend doing. 
 
-You can also use the solver if you don't want to manually plan out your moves. Head to the Folder named "boards" and clone the File named "out.csv" (may also be called "out"). Rename your copy to something else (region, treasureArea, ...) and open it in Notepad. Delete everything and recreate the area relevant to the treasure **(NOT THE WHOLE BOARD!)**. Refer to [this note](https://github.com/DanLeEpicMan/UpdatedMonolithSolver#notes-on-manually-making-the-board) for manually making boards. When you're done, run the following command in Anaconda prompt (replace yourName with whatever you named your file)
+First, you can use the solver to clear out the area. Head to the Folder named "boards" and duplicate the file named 'out.csv' (may also be called 'out'). Rename your copy to something else (region, treasureArea, ...) and open it in Notepad. Delete everything and recreate the area relevant to the treasure **(NOT THE WHOLE BOARD!)**. Refer to [this note](https://github.com/DanLeEpicMan/UpdatedMonolithSolver#notes-on-manually-making-the-board) for manually making boards. When you're done, run the following command in Anaconda prompt (replace yourName with whatever you named your file).
 
 ```
 python THM.py yourName
 ```
 
-Also be sure to double check your board in case a few boxes are off, especially if you take another screenshot after doing some manual clearing for treasure. If the solution board is in fact off, refer to the note linked above.
+Alternatively, if you don't want to use the solver and manually make the treasure region, you can simply plan your next moves by editing the screenshot you're on. Whichever way is easier.
+
+Either way, after you get your treasure successfully, you can take another screenshot of the board and go back to [Step 3](https://github.com/DanLeEpicMan/UpdatedMonolithSolver#step-3). Be sure to double check the board it gives you, in case a few boxes are off.
 
 ## Restarting
 
