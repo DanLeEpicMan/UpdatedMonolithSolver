@@ -82,6 +82,8 @@ You can alternatively paste this into the DMs of a bot on Discord, clicking the 
 
 ### 3.4
 
+**If the image parser fails during this step, then be sure to read the next note. It includes alternate instructions.**
+
 Once that is all saved, go back to Anaconda prompt and type the following command
 ```
 python start.py boardName
@@ -106,7 +108,15 @@ And this is how I would recreate it
 
 ![The recreation in Notepad](https://cdn.discordapp.com/attachments/786485904176971827/788300784487628800/unknown.png)
 
-Use 0 for any open blocks. Feel free to shoot me a message if you're having trouble.
+**Note that 1=Gray, 2=Pink, 3=Orange, 4=Blue. Use 0 for open blocks.**
+
+Since the start.py script only takes images as input, you won't be able to use it. To get around this, input the following command into Anaconda prompt
+```
+python THM.py out
+```
+Feel free to shoot me a message if you're having trouble (see [Afterword](https://github.com/DanLeEpicMan/UpdatedMonolithSolver#afterword)).
+
+Manually making the board is an incredibly tedious process. If you have to do it from scratch consistently, then I recommend trying out [this](https://github.com/westpipe/treasurefinder) alternate solver (westpipe/treasurefinder). Maybe you'll find it easier to use, maybe not, but I just want to inform you that it is a viable alternative.
 
 ## Step 4
 
