@@ -94,6 +94,13 @@ python start.py testBoard
 ```
 You don't need to include the file extension if your screenshot is a PNG. If it's a JPG, include .jpg at the end.
 
+### ModuleNotFoundError: No module named 'PIL'
+
+If you get the above error, then run the following command.
+```
+pip install pillow
+```
+
 ## Notes on Manually Making the Board
 
 **Skip this note and move to [Step 4](https://github.com/DanLeEpicMan/UpdatedMonolithSolver#step-4) if the parser worked fine for you.** 
@@ -120,7 +127,7 @@ Manually making the board is an incredibly tedious process. If you have to do it
 
 ## Step 4
 
-If you correctly inputted that command then the program should run for a minute or two. Once it's done it should open a File Explorer with a lot of images titled "step" and some number. Follow those steps in order, starting from Step 0. There is a small yellow box around the blob you should click. For reference, the board in the above note has this yellow box at (x, y) coordinate (9, 9).
+If you correctly inputted that command then the program should run for a minute or two. Once it's done it should open a File Explorer with a lot of images titled "step" and some number. Follow those steps in order, starting from Step 0. There is a small yellow box around the blob you should click. For reference, the board in the above note has this yellow box at (y, x) coordinate (9, 9).
 
 ### Additional Notes
 
