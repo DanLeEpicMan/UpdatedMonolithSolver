@@ -19,6 +19,6 @@ if not (exists(join("screenshots", image))):
 else:
     test = os.system("python parser.py -o " + join("boards", "out.csv") + " " + join("screenshots", image))
     if (test != 0): 
-        print("Something went wrong in the automatic conversion process. Try running the script again, and if the problem persists you may have to manually create the board. Contact Dan Le Man 2#1890 (Discord) for any assistance.")
+        print("Something went wrong in the automatic conversion process. Try running the script again, and if the problem persists you may have to manually create the board. Contact danleman1337 (Discord) for any assistance.")
     else:
         os.system("python THM.py out")
