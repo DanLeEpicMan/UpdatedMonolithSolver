@@ -161,6 +161,6 @@ If you have to restart after clearing the entire board, then go to [Step 3](http
 
 I hope my explanation was as informative as it could be! The two repositories I borrowed from had their own instructions, but I felt like I should write my own to help streamline everything. Remember that this tool won't guarantee success immediately, and you will most likely have to retry this a few times.
 
-If you run into any issues (or just wanna have a chat), then please feel free to shoot me a message. **My Discord is _Dan Le Man 2#1890_. Alternatively, you can add my [Steam account](https://steamcommunity.com/id/danleepicman/) if you prefer to use that instead** (in case the link doesn't work, my friend code is 442227082). I don't really have other contact info, so hopefully those two work with you!
+If you run into any issues (or just wanna have a chat), then please feel free to shoot me a message. **My Discord is _danleman1337_. Alternatively, you can add my [Steam account](https://steamcommunity.com/id/danleepicman/) if you prefer to use that instead** (in case the link doesn't work, my friend code is 442227082). I don't really have other contact info, so hopefully those two work with you!
 
 Full credit to both authors I borrowed code from! Feel free to also modify and redistribute this as you wish. Released under MIT License.
