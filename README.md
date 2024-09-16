@@ -6,10 +6,12 @@ I'm uploading this for a few reasons. My initial motivation was the original sol
 # Instructions
 
 To clarify, these instructions assume that you are using a computer with Windows. The script I wrote should work fine on both Linux and Mac, though I've never tested it (and don't plan to).
-- Mac: You should know how to use terminal and change the working directory in order to pass Step 2.
-- Linux: If you're using Linux, then you know what you're doing. Steps 2 and
+- Mac: You should know how to use terminal and change the working directory in order to pass Step 2. You should also know how to take screenshots and save them as a file in order to pass Step 3.1.
+- Linux: If you're using Linux, then you know what you're doing. The differences in instructions are the same as Mac.
 
-[Here is a video of me going over the instructions](https://youtu.be/63QQr9axij0). These instructions are newer, but should be mostly the same (except maybe Prerequisites and Installation).
+In any event that you run into issues with the script on a different operating system, refer to the instructions of the individual repositories.
+
+[Here is a video of me going over the instructions](https://youtu.be/63QQr9axij0). These written instructions are newer, but should be mostly the same (except maybe Prerequisites and Installation).
 
 Also know that you are free to contact me for whatever reason, whether you run into a problem with the program, want some tips for 100% completion, or simply want to talk. My contact information can be found in the [Afterword](https://github.com/DanLeEpicMan/UpdatedMonolithSolver#afterword).
 
