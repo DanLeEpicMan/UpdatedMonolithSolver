@@ -5,34 +5,52 @@ I'm uploading this for a few reasons. My initial motivation was the original sol
 
 # Instructions
 
-To clarify, these instructions assume that you are using a computer with Windows. If this is not your case, then you should still be able to run all the scripts fine, but none of the instructions will apply. Contact me if you're having trouble (see below). Also, if you prefer instructions in a video format then [you can find that here](https://youtu.be/63QQr9axij0). I apologize in advance if I come off as pretentious, condescending, or redundant.
+To clarify, these instructions assume that you are using a computer with Windows. Contact me if you're having trouble (see below). 
+- Mac: I'm unsure if these instructions apply for Mac. You should know how to open terminal and use it though. If Step 3 fails for you, then use the above two instructions.
+- Linux: If you're using Linux, then you know what you're doing. My script won't run on Linux. Use the instructions for the above two repositories instead.
+
+[Here is a video of me going over the instructions](https://youtu.be/63QQr9axij0). These instructions are newer, but should be mostly the same (except maybe Prerequisites and Installation).
 
 Also know that you are free to contact me for whatever reason, whether you run into a problem with the program, want some tips for 100% completion, or simply want to talk. My contact information can be found in the [Afterword](https://github.com/DanLeEpicMan/UpdatedMonolithSolver#afterword).
 
 ## Prerequisites and Installation
 
-Here I explain what you will need in order to run this script. Steps 1 and 2 are also related to setting up the solver; if you already know how to (decently) use command prompt and file explorer, then feel free to download the package in the next step and skip to [Step 3](https://github.com/DanLeEpicMan/UpdatedMonolithSolver#step-3).
+In order to run this script, you must have
+- Python 3.6 (or newer)
+- NumPy
+- OpenCV
 
-Since this program is written in Python, you will need to download Python 3.6 or a newer version. Additionally, you must also have the NumPy library installed. The Anaconda distribution includes both of these: [here's the download link for Windows](https://www.anaconda.com/products/individual#windows). If none of this step made sense to you, don't worry! Just download the Anaconda software and move onto Step 1. 
+If you have no clue what any of those mean, then:
+- You can download the Anaconda distribution of Python. [Here's the download link for Windows](https://www.anaconda.com/products/individual#windows). This comes with NumPy preinstalled.
+- If you're not comfortable giving Anaconda your email, [you can download the latest version of Python instead](https://www.python.org/downloads/).
 
-Moreover, don't forget to download the solver itself! You can download it by clicking the "Code" and "Download ZIP" option. Unzip it to an easily accessible place, such as Downloads folder (which is where I put it!). You should also omit the "UpdatedMonolithSolver-main" bit from the extraction destination, as doing so won't create extraneous folders.
+Note that my video instructions uses Anaconda.
 
-If you plan on using the automatic screnshot parser (which I highly recommend), you will need to install an additional package, OpenCV. I will explain how to do so in the next step.
+Also, don't forget to download the solver itself. Make sure you unzip it somewhere you can easily access (e.g. Downloads).
 
 ## Step 1
 
-On the search bar in the bottom left corner of your screen, type the word "Anaconda", and open the program called "Anaconda Prompt" (or something very similar). You may need to click the Windows Icon or Magnifying Glass icon for it to appear. If you didn't download Anaconda then use cmd/PowerShell instead. I may also use "Anaconda prompt" and "Command prompt" interchangeably, so be aware of that in case there's any confusion.
+### If you downloaded Anaconda
 
-If you plan on using the automatic screenshot parser (you really should), then run this command in Anaconda prompt.
+Open Anaconda prompt by searching "Anaconda" in the Windows search bar. Run the following command
 ```
 pip install opencv-python
 ```
+(Experienced developers might be wondering why I'm instructing users to use `pip` instead of `conda`. It's because I'm lazy and don't want to write instructions for `conda`. For our purposes, there's no difference anyways.)
 
-You should see a message telling you it downloaded successfully. If you do not receive this message, please contact me and I'll help you out. See [Afterword](https://github.com/DanLeEpicMan/UpdatedMonolithSolver#afterword) for my contact info.
+### If you downloaded Python directly
+
+Open command prompt by searching `cmd` in the Windows Search bar. Run the following commands
+```
+pip install numpy
+pip install opencv-python
+```
+
+Either way, you should see a message telling you everything downloaded successfully. If you do not receive this message, contact me and I'll help you out. See [Afterword](https://github.com/DanLeEpicMan/UpdatedMonolithSolver#afterword).
 
 ## Step 2
 
-For those of you that have experience with command prompt, simply move into the unzipped folder using the cd command and move onto the next step. For those of you that don't, here's how to do that
+You'll want to change your directory to the unzipped folder. If you don't know how to do that:
 
 ### 2.1
 
@@ -42,45 +60,46 @@ C:\Users\Daniel\Downloads\UpdatedMonolithSolver-main
 ```
 ### 2.2
 
-Then in Anaconda prompt, type (without quotes) "cd (whatever you just copied)". For example, I would input this into my command prompt (press right click to paste)
+Then in Anaconda prompt, type `cd (whatever you just copied)`. For example, I would input this into my command prompt (press right click to paste)
 ```
 cd C:\Users\Daniel\Downloads\UpdatedMonolithSolver-main
 ```
-### Additional Notes
 
-1: If you left the zip extraction destination unchanged from the installation step, then you'll have two folders called "UpdatedMonolithSolver-main". To check if you have two, open the unzipped folder and see if there's a single folder in there called "UpdatedMonolithSolver-main". You can either type "cd UpdatedMonolithSolver-main" or move the inner folder into Downloads (or wherever you'd like to keep it) and delete the empty folder.
+If you just unzipped without changing the destimation, type `cd UpdatedMonolithSolver-main` again.
 
-2: If you place the Monolith folder in a drive other than the C drive, then you must move to that drive first before the cd command will work properly. To do this, simply type "(drive letter):" in command prompt (e.g. if you put the Monolith folder in your D: drive, type "D:" in the command prompt and it will move you there). If you ever need to verify whether you're in the right spot, type "dir" and see if command prompt displays the folder's contents (namely "boards", "THM.py", "sprites", etc.)
+### If you have multiple hard drives...
+
+If you're running the solver in a drive other than your C drive, then you must move to it before cd will work properly. You can type `(drive letter):` to do this. (If you don't understand what this means, then it probably doesn't apply to you.)
 	
 ## Step 3
 
-This step is where you actually start to use the solver. I highly recommend playing in Borderless Windowed mode since you will be pressing Alt+Tab a lot. I also recommend muting the game in Volume Mixer and playing your own music, as this minigame's music will most likely drive you insane.
+This step is where you actually start to use the solver. I highly recommend playing in Borderless Windowed mode since you will be pressing Alt+Tab a lot. 
 
-The following instructions assume that you are using the automatic script parser (i.e. you aren't manually making the board) and have downloaded the additional package in [Step 1](https://github.com/DanLeEpicMan/UpdatedMonolithSolver#step-1). I'll include additional notes at the end explaining how to manually make the board yourself; feel free to skip those if the parser worked well with you.
-
-Also, you may find it easier to run the script midway into a game instead of using it at the start. The benefit of this is allowing you to incorporate some degree of personal strategy, as opposed to getting lucky. This was not my idea but instead someone else's ("HyungOppaHelper" from the comments of the legacy YouTube instructions). Regardless, the difference between this approach and the following is when you decide to pause the game and make the board. Whichever one you prefer is up to your discretion.
+I also recommend muting the game in Volume Mixer and playing your own music, as this minigame's music will most likely drive you insane.
 
 ### 3.1
 
-Start a game and take a picture of the board by pressing Prt Sc (Print Screen, usually located near the numpad above the arrow keys). This will save a screenshot to your clipboard; make sure you don't copy anything else until the next step. Then, pause the minigame by opening the controls **(F3 on QWERTY layout)**. 
+Start a game and take a picture of the board by pressing `Prt Sc`. Then, pause the minigame by opening the controls **(F3 on QWERTY layout)**. 
 
-If you have multiple monitors, then use Alt + Prt Sc instead (this will only screenshot the active monitor instead of all of them). If you don't have a Prt Sc key, uss Windows Key + Shift + S instead. 
+You can also press `Windows Key + Shift + S`
 
 **Make sure your hammer is away from the board and that you include the full screen.** This is what your screenshot should look like.
-![Sample board](https://cdn.discordapp.com/attachments/906695285990899712/990763499137425438/unknown.png)
+![Sample board](https://cdn.discordapp.com/attachments/785252922678181888/1285080932654645358/image.png?ex=66e8f861&is=66e7a6e1&hm=55029455db4d7f5aa6e8675880b0c0384152ef53602f3b8f9585cf77b053068e&)
 Notice how the hammer is out of frame in the bottom left corner
 
 ### 3.2
 
-Open up Microsoft Paint by searching "paint" in the search bar at the bottom left corner (for Windows 11 Users, you have to press the magnifying glass for this to appear). If you have a different photo editing software, you can use this as well.
-  
+Save your paint as a PNG file (JPG works too). Name it something you can easily remember.
+
+If you don't know how, here's a quick-and-dirty way
+- Open up Microsoft Paint by searching "paint" in the Windows search bar.
+- Paste with `Ctrl + V`
+- File -> Save As -> PNG
+- Make sure you only save the image and not any extra background white space.
+
+An even quicker and dirtier way is to paste into the DMs of a bot on Discord, clicking the image, "Open Original", and then saving it directly. Whichever way is easier.
+
 ### 3.3
-
-Paste your screenshot into paint, then save it to the "screenshots" folder included in the main Monolith folder. Click "File" then "Save As", and navigate to the screenshots folder and save it there. Make sure to name it something you can easily remember (board, myBoard, game, ...). **Check the File Type and make sure this is saved as either a PNG or JPG, as the parser will only accept those two image formats.**
-	
-You can alternatively paste this into the DMs of a bot on Discord, clicking the image and then "Open Original", then saving it directly. Whichever way is easier.
-
-### 3.4
 
 **If the image parser fails during this step, then be sure to read the next note. It includes alternate instructions.**
 
@@ -92,7 +111,7 @@ Replace boardName with whatever you named your screenshot. For example, I includ
 ```
 python start.py testBoard
 ```
-You don't need to include the file extension if your screenshot is a PNG. If it's a JPG, include .jpg at the end.
+**If you saved your image as a JPG, include .jpg with the board name.**
 
 ### ModuleNotFoundError: No module named 'PIL'
 
@@ -105,15 +124,15 @@ pip install pillow
 
 **Skip this note and move to [Step 4](https://github.com/DanLeEpicMan/UpdatedMonolithSolver#step-4) if the parser worked fine for you.** 
 
-Sometimes the parser may fail and generate an incorrect board. This shouldn't happen very often, but is nonetheless possible. If this is your case, then go to the 'boards' folder and edit the file called 'out.csv' (it might just be called 'out'). Refer to the following images for correctly making a board:
+Sometimes the parser may fail and generate an incorrect board. This shouldn't happen very often, but is nonetheless possible. If this is your case, go to the 'boards' folder and edit the file called `out`. Refer to the following images for correctly making a board:
 
 This is the board I have
 
-![The board I'd like to recreate](https://cdn.discordapp.com/attachments/786485904176971827/788300313815285770/unknown.png)
+![The board I'd like to recreate](https://cdn.discordapp.com/attachments/786485904176971827/788300313815285770/unknown.png?ex=66e88120&is=66e72fa0&hm=42598a0c44379afa98204aa9b739e67b86ae016f08e5bfdfffd60d6a7a90fbaf&)
   
 And this is how I would recreate it
 
-![The recreation in Notepad](https://cdn.discordapp.com/attachments/786485904176971827/788300784487628800/unknown.png)
+![The recreation in Notepad](https://cdn.discordapp.com/attachments/786485904176971827/788300784487628800/unknown.png?ex=66e88190&is=66e73010&hm=1229fabae024a410d2215ccdf86a278f4a467803ab451ad1f7c4492fd3670659&)
 
 **Note that 1=Gray, 2=Pink, 3=Orange, 4=Blue. Use 0 for open blocks.**
 
@@ -123,39 +142,54 @@ python THM.py out
 ```
 Feel free to shoot me a message if you're having trouble (see [Afterword](https://github.com/DanLeEpicMan/UpdatedMonolithSolver#afterword)).
 
-Manually making the board is an incredibly tedious process. If you have to do it from scratch consistently, then I recommend trying out [this](https://github.com/westpipe/treasurefinder) alternate solver (westpipe/treasurefinder). Maybe you'll find it easier to use, maybe not, but I just want to inform you that it is a viable alternative.
+Manually making the board is an incredibly tedious process. If you have to do it from scratch consistently, then I recommend trying out [this](https://github.com/westpipe/treasurefinder) alternate solver (westpipe/treasurefinder).
 
 ## Step 4
 
-If you correctly inputted that command then the program should run for a minute or two. Once it's done it should open a File Explorer with a lot of images titled "step" and some number. Follow those steps in order, starting from Step 0. There is a small yellow box around the blob you should click. For reference, the board in the above note has this yellow box at (x, y) coordinate (9, 3) (starting from the top left corner).
+Once the program is done, it should open a file explorer window with a lot of images titled "step" and some number. Follow those steps in order, starting from Step 0. 
 
-### Additional Notes
+There is a small yellow box around the blob you should click.
 
-1: Ideally, you want at least 90% board clearance, since it'll most likely require minimal manual clearing. If you get below 80%, I reccommend starting over since you will have to do a lot of manual clearing. Unfortunately there's no restart option, so you will have to spam click the board until you can start a new game.
+### Incomplete Solution
 
-2: Very rarely, the program may generate an incomplete solution. This is because the program is designed using the A* (A-Star) search algorithm, which stops running on its own after some time. By default, the program terminates once it has checked 5000 board states. If you ever run into this problem, input the following command into Anaconda prompt
+Very rarely, the program may generate an incomplete solution. This is because the program is designed using the A* (A-Star) search algorithm, which stops running on its own after some time. By default, the program terminates once it has checked 5000 board states. If you ever run into this problem, input the following command into Anaconda prompt
 ```
 python THM.py out 100 7500
 ```
 That command will let the program check 7500 boards instead of 5000, increasing the likelihood of finding a more complete solution. It might take a few seconds longer though.
 
-### An Extra and (Hopefully) Helpful Tip 
+## Accounting for Treasure
 
-**Note that this program does NOT account for your treasure!** It simply gives you the solution with the most blocks destroyed. Recall that you should have at least 2 Monokubs and 3-4 fish to earn the achievement. If you happen to uncover treasure that you would like to be accounted for, then there's one of two things I recommend doing. 
+**Note that this program does NOT account for your treasure!** As soon as you see treasure, stop following the solver and do everything you can to uncover it, since this solver may not obtain it in the end. (Especially if it's a Monokub.)
 
-First, you can use the solver to clear out the area. Head to the Folder named "boards" and duplicate the file named 'out.csv' (may also be called 'out'). Rename your copy to something else (region, treasureArea, ...) and open it in Notepad. Delete everything and recreate the area relevant to the treasure **(NOT THE WHOLE BOARD!)**. Refer to [this note](https://github.com/DanLeEpicMan/UpdatedMonolithSolver#notes-on-manually-making-the-board) for manually making boards. When you're done, run the following command in Anaconda prompt (replace yourName with whatever you named your file).
+### Manually plan out your moves
+
+As the title suggests, simply just plan your next moves manually. You can edit the screenshot you're on if it helps. This is usually pretty easy to do straightforward.
+
+### Using the Solver
+
+You can also have the solver figure plan your moves for you.
+1. Head to the folder titles "boards".
+2. Duplicate the file named `out`. Rename it to something you can remember, such as `region`.
+3. Open it with notepad and delete all its contents
+4. Recreate a small area around the treasure **(NOT THE WHOLE BOARD!)**. Refer to [this note](https://github.com/DanLeEpicMan/UpdatedMonolithSolver#notes-on-manually-making-the-board)
+5. Run the following command
 
 ```
-python THM.py yourName
+python THM.py region
 ```
 
-Alternatively, if you don't want to use the solver and manually make the treasure region, you can simply plan your next moves by editing the screenshot you're on. Whichever way is easier.
+### Generating a new solution
 
-Either way, after you get your treasure successfully, you can take another screenshot of the board and go back to [Step 3](https://github.com/DanLeEpicMan/UpdatedMonolithSolver#step-3). Be sure to double check the board it gives you, in case a few boxes are off.
+Either way, after you get your treasure successfully, you can take another screenshot of the board and go back to [Step 3](https://github.com/DanLeEpicMan/UpdatedMonolithSolver#step-3). 
+
+Double check the solution it gives you, especially in areas with uncovered treasure. Refer to [this note](https://github.com/DanLeEpicMan/UpdatedMonolithSolver#notes-on-manually-making-the-board) for changing the board manually.
 
 ## Restarting
 
-If you have to restart after clearing the entire board, then go to [Step 3](https://github.com/DanLeEpicMan/UpdatedMonolithSolver#step-3). If you have to open Anaconda prompt again, then start at [Step 1](https://github.com/DanLeEpicMan/UpdatedMonolithSolver#step-1) instead. Don't reinstall the OpenCV package if you've already installed it though (i.e. skip the command I tell you to input in Step 1 if you've done that before).
+If you have to restart after clearing the entire board, then go to [Step 3](https://github.com/DanLeEpicMan/UpdatedMonolithSolver#step-3). 
+
+If you have to reopen Anaconda/command prompt again, then start at [Step 2](https://github.com/DanLeEpicMan/UpdatedMonolithSolver#step-2) instead.
 
 # Afterword
 
