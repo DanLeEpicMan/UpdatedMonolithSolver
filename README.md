@@ -5,9 +5,9 @@ I'm uploading this for a few reasons. My initial motivation was the original sol
 
 # Instructions
 
-To clarify, these instructions assume that you are using a computer with Windows. Contact me if you're having trouble (see below). 
-- Mac: I'm unsure if these instructions apply for Mac. You should know how to open terminal and use it though. If Step 3 fails for you, then use the above two instructions.
-- Linux: If you're using Linux, then you know what you're doing. My script won't run on Linux. Use the instructions for the above two repositories instead.
+To clarify, these instructions assume that you are using a computer with Windows. The script I wrote should work fine on both Linux and Mac, though I've never tested it (and don't plan to).
+- Mac: You should know how to use terminal and change the working directory in order to pass Step 2.
+- Linux: If you're using Linux, then you know what you're doing. Steps 2 and
 
 [Here is a video of me going over the instructions](https://youtu.be/63QQr9axij0). These instructions are newer, but should be mostly the same (except maybe Prerequisites and Installation).
 
@@ -46,7 +46,7 @@ pip install numpy
 pip install opencv-python
 ```
 
-Either way, you should see a message telling you everything downloaded successfully. If you do not receive this message, contact me and I'll help you out. See [Afterword](https://github.com/DanLeEpicMan/UpdatedMonolithSolver#afterword).
+Either way, you should see a message telling you everything downloaded successfully.
 
 ## Step 2
 
@@ -164,20 +164,21 @@ That command will let the program check 7500 boards instead of 5000, increasing 
 
 ### Manually plan out your moves
 
-As the title suggests, simply just plan your next moves manually. You can edit the screenshot you're on if it helps. This is usually pretty easy to do straightforward.
+As the title suggests, simply plan your next moves manually. You can edit the screenshot you're on if it helps. This is usually pretty easy to do straightforward.
 
 ### Using the Solver
 
 You can also have the solver figure plan your moves for you.
 1. Head to the folder titles "boards".
 2. Duplicate the file named `out`. Rename it to something you can remember, such as `region`.
-3. Open it with notepad and delete all its contents
-4. Recreate a small area around the treasure **(NOT THE WHOLE BOARD!)**. Refer to [this note](https://github.com/DanLeEpicMan/UpdatedMonolithSolver#notes-on-manually-making-the-board)
+3. Open it with notepad and delete all its contents.
+4. Recreate a small area around the treasure **(NOT THE WHOLE BOARD!)**. Refer to [this note](https://github.com/DanLeEpicMan/UpdatedMonolithSolver#notes-on-manually-making-the-board).
 5. Run the following command
 
 ```
 python THM.py region
 ```
+Change `region` to whatever you named your duplicated file.
 
 ### Generating a new solution
 
@@ -189,12 +190,12 @@ Double check the solution it gives you, especially in areas with uncovered treas
 
 If you have to restart after clearing the entire board, then go to [Step 3](https://github.com/DanLeEpicMan/UpdatedMonolithSolver#step-3). 
 
-If you have to reopen Anaconda/command prompt again, then start at [Step 2](https://github.com/DanLeEpicMan/UpdatedMonolithSolver#step-2) instead.
+If you have to reopen Anaconda/command prompt again, then go to [Step 2](https://github.com/DanLeEpicMan/UpdatedMonolithSolver#step-2) instead.
 
 # Afterword
 
 I hope my explanation was as informative as it could be! The two repositories I borrowed from had their own instructions, but I felt like I should write my own to help streamline everything. Remember that this tool won't guarantee success immediately, and you will most likely have to retry this a few times.
 
-If you run into any issues (or just wanna have a chat), then please feel free to shoot me a message. **My Discord is _danleman1337_. Alternatively, you can add my [Steam account](https://steamcommunity.com/id/danleepicman/) if you prefer to use that instead** (in case the link doesn't work, my friend code is 442227082). I don't really have other contact info, so hopefully those two work with you!
+If you run into any issues (or just wanna have a chat), then please feel free to shoot me a message. **My Discord is _danleman1337_. Alternatively, you can add my [Steam account](https://steamcommunity.com/id/danleepicman/) if you prefer to use that instead** (in case the link doesn't work, my friend code is 442227082).
 
 Full credit to both authors I borrowed code from! Feel free to also modify and redistribute this as you wish. Released under MIT License.
