@@ -28,7 +28,7 @@ def main():
     # THM mean grid is 22x11, and screenshot roughly 1 extra cell of padding on each side
     # Resize so each cell is about 32 px
     cSize = 32
-    downsampled = image_resize(image, width=(22) * cSize)
+    downsampled = image_resize(image, width=(22+2) * cSize)
 
     # DEBUG
     # gridVisualization = downsampled.copy()
