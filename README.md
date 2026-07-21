@@ -32,6 +32,7 @@ In order to run this script, you must have
 - Python 3.6 (or newer)
 - NumPy
 - OpenCV
+- Pillow
 
 If you have no clue what any of those mean, [you should start by downloading the latest version of Python](https://www.python.org/downloads/).
 
@@ -81,22 +82,29 @@ If you left the zip destination unchanged, type `cd UpdatedMonolithSolver-main` 
 
 This step is where you actually start to use the solver. I highly recommend:
 
-1. Playing the game in Borderless Windowed mode
-   - You will be using `Alt+Tab` a lot.
-2. Mute the game in Volume Mixer
+1. **Playing the game in Borderless Windowed mode.** (!!!)
+   - You will be using `Alt + Tab` a lot.
+   - This will also make taking screenshots easier.
+2. Muting the game in Volume Mixer
    - Otherwise you'll go insane. 
 
 ### 3.1
 
-Start a game and take a picture of the board by pressing `Prt Sc`. Alternatively, `Windows Key + Shift + S`. Then pause the minigame by opening the controls **(F3 on QWERTY layout)**. 
+Start a game and take a picture of the board. Use `Prt Scr` if in Borderless Windowed mode and `Windows Key + Shift + S` otherwise. Then pause the minigame by opening the controls **(F3 on QWERTY layout)**. 
 
 **It is extremely important that**
 
-1. You have a picture of the entire screen, *not* just the board.
+1. You have a picture of the entire minigame, *not* just the board.
+   - Make sure the margins are equally spaced. 
 2. The hammer is out of frame, e.g. in the bottom-left corner.
+3. **Nothing beyond the minigame is visible in your screenshot.** (!!!)
+   - No taskbar, no menu bar. Just Danganronpa V3.
 
 Here's a sample screenshot
+
 ![Sample board](screenshots/testBoard.png)
+
+`Prt Scr` in Borderless Windowed mode is the easiest way to recreate this screenshot.
 
 ### 3.2
 
